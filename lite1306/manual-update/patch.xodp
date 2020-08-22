@@ -1,0 +1,35 @@
+{
+  "description": "Draws objects located above. Required only if \"screen: AUTO\" == false",
+  "nodes": [
+    {
+      "id": "Byst4PRfP",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "Hk9dVPCfv",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "rymdNDRzw",
+      "label": "SCR",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/input-screen"
+    }
+  ]
+}

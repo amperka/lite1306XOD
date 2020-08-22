@@ -1,0 +1,67 @@
+{
+  "description": "Sets the color in which further graphics and text will be displayed.",
+  "nodes": [
+    {
+      "id": "BJrE3p9Gw",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "BkkRSd9GP",
+      "label": "SCR'",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "@/output-screen"
+    },
+    {
+      "id": "HkdZroYzw",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "Color. May be \"0\"- black, \"1\"- white, \"2\"- inverse. Use \"color-***\" blocks.",
+      "id": "HkgdbSstfv",
+      "label": "COLOR",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "id": "HygVh65Gw",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "rkT6BOqfP",
+      "label": "SCR",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "@/input-screen"
+    }
+  ]
+}

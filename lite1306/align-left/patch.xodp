@@ -1,0 +1,27 @@
+{
+  "description": "Align left constant. X only.",
+  "nodes": [
+    {
+      "id": "rJYsOotfP",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "32764"
+      },
+      "id": "rkeKidoKMv",
+      "label": "L",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

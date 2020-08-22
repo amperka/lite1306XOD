@@ -1,0 +1,27 @@
+{
+  "description": "Color black constant. Use it  with \"set-color\".",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__in__": "0"
+      },
+      "id": "Hyxnd0stfv",
+      "label": "BLACK",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "S12_RstGP",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

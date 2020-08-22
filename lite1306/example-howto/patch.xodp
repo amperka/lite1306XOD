@@ -1,0 +1,484 @@
+{
+  "comments": [
+    {
+      "content": "\nPlace the device object",
+      "id": "B1Ol1KCGw",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 3
+      }
+    },
+    {
+      "content": "\nConnect \"screen\"s, there may be several of them. Upon the DO command, the \"screen\" renders the graphic objects connected to it below.",
+      "id": "Bk4ngtRMw",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 9
+      }
+    },
+    {
+      "content": "\nIf the AUTO parameter of the \"screen\" block is true it means that auto-update mode is enabled. That is, objects on the screen will be displayed one after another, sequentially. You can use delays in DONE-DO chains for more clarity. The \"manual-update\" block at the end is unnecessary in this case. If AUTO is false, sequential rendering will be disabled. The entire \"screen\" will be rendered by the \"manual-update\" command.",
+      "id": "ByoS1K0zw",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 8
+      },
+      "size": {
+        "height": 2,
+        "units": "slots",
+        "width": 17
+      }
+    },
+    {
+      "content": "The block of code above is needed to periodically switch screens",
+      "id": "SJ7hkFCfD",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 6
+      }
+    },
+    {
+      "content": "\nSet the color for drawing graphic objects. If no color is set, the default color is inverse. Color can be: color-black, color-white, color-inverse.",
+      "id": "rJibkY0zv",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 5
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 12
+      }
+    },
+    {
+      "content": "\nInstead of numbers indicating position, you can use predefined alignment constants: align-center, align-top, align-bottom, align-left, align-right.",
+      "id": "ry57yYRzv",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 6
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 9
+      }
+    }
+  ],
+  "links": [
+    {
+      "id": "BJ7hAuCfD",
+      "input": {
+        "nodeId": "ryMcAdAMv",
+        "pinKey": "SJQ4PNjYzv"
+      },
+      "output": {
+        "nodeId": "rJ1KCORGw",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "BJBURdCfv",
+      "input": {
+        "nodeId": "HJNSAO0MP",
+        "pinKey": "HkgdbSstfv"
+      },
+      "output": {
+        "nodeId": "rkMICdRGv",
+        "pinKey": "HyxRoAitzv"
+      }
+    },
+    {
+      "id": "BJkk1YRfD",
+      "input": {
+        "nodeId": "Hys9AOCMw",
+        "pinKey": "rJPi3acfw"
+      },
+      "output": {
+        "nodeId": "HJNSAO0MP",
+        "pinKey": "BJrE3p9Gw"
+      }
+    },
+    {
+      "id": "Bk47AuAzP",
+      "input": {
+        "nodeId": "SJqe0ORzP",
+        "pinKey": "SyU5XOqMw"
+      },
+      "output": {
+        "nodeId": "H1JC6_RzP",
+        "pinKey": "Hk8pGoYGv"
+      }
+    },
+    {
+      "id": "BkGgyK0Mv",
+      "input": {
+        "nodeId": "H11xkFCzD",
+        "pinKey": "Hk9dVPCfv"
+      },
+      "output": {
+        "nodeId": "ryMcAdAMv",
+        "pinKey": "Hyoi3T5fD"
+      }
+    },
+    {
+      "id": "ByL20uRGw",
+      "input": {
+        "nodeId": "Hys9AOCMw",
+        "pinKey": "HJzNDEstGw"
+      },
+      "output": {
+        "nodeId": "rJ1KCORGw",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "Byls0_CMP",
+      "input": {
+        "nodeId": "ryMcAdAMv",
+        "pinKey": "BJ1iBd9Gv"
+      },
+      "output": {
+        "nodeId": "SJqe0ORzP",
+        "pinKey": "H1lAQu5Gw"
+      }
+    },
+    {
+      "id": "H1HG9JKAMv",
+      "input": {
+        "nodeId": "B1Gzq1K0zv",
+        "pinKey": "S1VDQYD6W"
+      },
+      "output": {
+        "nodeId": "H1Gc1KAfw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "H1IM9kFAzv",
+      "input": {
+        "nodeId": "S1mfckK0Mw",
+        "pinKey": "ry3zLA_Bv1Z"
+      },
+      "output": {
+        "nodeId": "H1lfc1YCfP",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "HJvM51YAfP",
+      "input": {
+        "nodeId": "H1lfc1YCfP",
+        "pinKey": "ryTIROHwkW"
+      },
+      "output": {
+        "nodeId": "H1Gc1KAfw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "Hk-3C_0zv",
+      "input": {
+        "nodeId": "ryMcAdAMv",
+        "pinKey": "HJzNDEstGw"
+      },
+      "output": {
+        "nodeId": "rJ1KCORGw",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "Hk-p1F0zw",
+      "input": {
+        "nodeId": "SJqe0ORzP",
+        "pinKey": "Hkx6spcfP"
+      },
+      "output": {
+        "nodeId": "Sk-z9kYRGw",
+        "pinKey": "HJ1uXKDpb"
+      }
+    },
+    {
+      "id": "Hk4GqyKCfw",
+      "input": {
+        "nodeId": "Sk-z9kYRGw",
+        "pinKey": "S1VDQYD6W"
+      },
+      "output": {
+        "nodeId": "H1Gc1KAfw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "HkjUA_Rfw",
+      "input": {
+        "nodeId": "HJNSAO0MP",
+        "pinKey": "rkT6BOqfP"
+      },
+      "output": {
+        "nodeId": "By7WCdRfw",
+        "pinKey": "H1lAQu5Gw"
+      }
+    },
+    {
+      "id": "HyC3kFCfP",
+      "input": {
+        "nodeId": "By7WCdRfw",
+        "pinKey": "Hkx6spcfP"
+      },
+      "output": {
+        "nodeId": "B1Gzq1K0zv",
+        "pinKey": "HJ1uXKDpb"
+      }
+    },
+    {
+      "id": "HyCL0dAzv",
+      "input": {
+        "nodeId": "HJNSAO0MP",
+        "pinKey": "HygVh65Gw"
+      },
+      "output": {
+        "nodeId": "By7WCdRfw",
+        "pinKey": "SyxCiaqfw"
+      }
+    },
+    {
+      "id": "HyT0RdCfw",
+      "input": {
+        "nodeId": "Hys9AOCMw",
+        "pinKey": "BJ1iBd9Gv"
+      },
+      "output": {
+        "nodeId": "HJNSAO0MP",
+        "pinKey": "BkkRSd9GP"
+      }
+    },
+    {
+      "id": "SkfjA_CfP",
+      "input": {
+        "nodeId": "ryMcAdAMv",
+        "pinKey": "rJPi3acfw"
+      },
+      "output": {
+        "nodeId": "SJqe0ORzP",
+        "pinKey": "SyxCiaqfw"
+      }
+    },
+    {
+      "id": "SyOz9kYRMv",
+      "input": {
+        "nodeId": "B1Gzq1K0zv",
+        "pinKey": "BJf6HXtDaW"
+      },
+      "output": {
+        "nodeId": "S1mfckK0Mw",
+        "pinKey": "r1if8ROSDJ-"
+      }
+    },
+    {
+      "id": "SyS7AORGP",
+      "input": {
+        "nodeId": "By7WCdRfw",
+        "pinKey": "SyU5XOqMw"
+      },
+      "output": {
+        "nodeId": "H1JC6_RzP",
+        "pinKey": "Hk8pGoYGv"
+      }
+    },
+    {
+      "id": "SycnRuAMv",
+      "input": {
+        "nodeId": "Hys9AOCMw",
+        "pinKey": "SJQ4PNjYzv"
+      },
+      "output": {
+        "nodeId": "rJ1KCORGw",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "r1-l1t0fD",
+      "input": {
+        "nodeId": "H11xkFCzD",
+        "pinKey": "rymdNDRzw"
+      },
+      "output": {
+        "nodeId": "ryMcAdAMv",
+        "pinKey": "Syp5Hd5Gw"
+      }
+    },
+    {
+      "id": "rJtG51KRGw",
+      "input": {
+        "nodeId": "Sk-z9kYRGw",
+        "pinKey": "BJf6HXtDaW"
+      },
+      "output": {
+        "nodeId": "H1lfc1YCfP",
+        "pinKey": "HkyxURuSPyW"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B1Gzq1K0zv",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/core/gate(pulse)"
+    },
+    {
+      "id": "By7WCdRfw",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 4
+      },
+      "type": "@/screen"
+    },
+    {
+      "id": "H11xkFCzD",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 8
+      },
+      "type": "@/manual-update"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "2"
+      },
+      "id": "H1Gc1KAfw",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": -1
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "H1JC6_RzP",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "type": "@/ssd1306-device"
+    },
+    {
+      "id": "H1lfc1YCfP",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "id": "HJNSAO0MP",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 5
+      },
+      "type": "@/set-color"
+    },
+    {
+      "boundLiterals": {
+        "HyLEDNoYfD": "True",
+        "SkNEvVoYfP": "29"
+      },
+      "id": "Hys9AOCMw",
+      "position": {
+        "units": "slots",
+        "x": 14,
+        "y": 7
+      },
+      "type": "@/draw-circle"
+    },
+    {
+      "id": "S1mfckK0Mw",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/core/not"
+    },
+    {
+      "boundLiterals": {
+        "BkzGmPRGv": "False"
+      },
+      "id": "SJqe0ORzP",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 4
+      },
+      "type": "@/screen"
+    },
+    {
+      "id": "Sk-z9kYRGw",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/core/gate(pulse)"
+    },
+    {
+      "id": "rJ1KCORGw",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 6
+      },
+      "type": "@/align-center"
+    },
+    {
+      "id": "rkMICdRGv",
+      "position": {
+        "units": "slots",
+        "x": 18,
+        "y": 5
+      },
+      "type": "@/color-white"
+    },
+    {
+      "boundLiterals": {
+        "SkNEvVoYfP": "29"
+      },
+      "id": "ryMcAdAMv",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 7
+      },
+      "type": "@/draw-circle"
+    }
+  ]
+}

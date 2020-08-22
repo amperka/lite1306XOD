@@ -1,0 +1,24 @@
+{
+  "description": "Medium-size numeric only font. Like 7-segments.",
+  "nodes": [
+    {
+      "id": "BJMoZ2Yzw",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "ryxMgVpGv",
+      "label": "N24",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/output-fonts"
+    }
+  ]
+}

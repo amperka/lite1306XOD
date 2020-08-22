@@ -1,0 +1,6 @@
+{
+  "apiKey": "650fb3e5-7050-4c41-8f7c-ed4414380856",
+  "description": "Lite ssd1306 library without internal 1Kb buffer.  Slow but not demanding on RAM.",
+  "name": "lite1306",
+  "version": "0.1.0"
+}

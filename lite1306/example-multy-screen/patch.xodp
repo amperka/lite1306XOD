@@ -1,0 +1,625 @@
+{
+  "links": [
+    {
+      "id": "B1DtgSafw",
+      "input": {
+        "nodeId": "S1ytgrTzw",
+        "pinKey": "S1VDQYD6W"
+      },
+      "output": {
+        "nodeId": "S15wxH6zw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "B1rlk21BTzD",
+      "input": {
+        "nodeId": "ByZynkBpzP",
+        "pinKey": "HygVh65Gw"
+      },
+      "output": {
+        "nodeId": "S1xJnJHTMP",
+        "pinKey": "SyxCiaqfw"
+      }
+    },
+    {
+      "id": "BJ_axSTMw",
+      "input": {
+        "nodeId": "rJVpxr6Mv",
+        "pinKey": "S1VDQYD6W"
+      },
+      "output": {
+        "nodeId": "S15wxH6zw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "Bk3Z2gSTMv",
+      "input": {
+        "nodeId": "B1XbheSpzw",
+        "pinKey": "rkT6BOqfP"
+      },
+      "output": {
+        "nodeId": "BJfb3xBTzD",
+        "pinKey": "H1lAQu5Gw"
+      }
+    },
+    {
+      "id": "BkNYxH6fD",
+      "input": {
+        "nodeId": "S1xJnJHTMP",
+        "pinKey": "Hkx6spcfP"
+      },
+      "output": {
+        "nodeId": "S1ytgrTzw",
+        "pinKey": "HJ1uXKDpb"
+      }
+    },
+    {
+      "id": "BkY1hySTMv",
+      "input": {
+        "nodeId": "S1xJnJHTMP",
+        "pinKey": "SyU5XOqMw"
+      },
+      "output": {
+        "nodeId": "HkynkHpfD",
+        "pinKey": "Hk8pGoYGv"
+      }
+    },
+    {
+      "id": "Bkd-SvCzv",
+      "input": {
+        "nodeId": "SyNZBvCfD",
+        "pinKey": "rymdNDRzw"
+      },
+      "output": {
+        "nodeId": "B18Jhyrpzw",
+        "pinKey": "SyhEvu9GD"
+      }
+    },
+    {
+      "id": "BkrscHazw",
+      "input": {
+        "nodeId": "ByQJ3JHpzv",
+        "pinKey": "H1-FZ76zw"
+      },
+      "output": {
+        "nodeId": "rJXsqrTfv",
+        "pinKey": "ByWKqQ6zP"
+      }
+    },
+    {
+      "id": "H1DbhgSTzw",
+      "input": {
+        "nodeId": "B1XbheSpzw",
+        "pinKey": "HygVh65Gw"
+      },
+      "output": {
+        "nodeId": "BJfb3xBTzD",
+        "pinKey": "SyxCiaqfw"
+      }
+    },
+    {
+      "id": "H1XOxrafw",
+      "input": {
+        "nodeId": "BJ1LlB6GD",
+        "pinKey": "ry3zLA_Bv1Z"
+      },
+      "output": {
+        "nodeId": "Bk6XeSTMD",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "HJ-dlrTGv",
+      "input": {
+        "nodeId": "Bk6XeSTMD",
+        "pinKey": "ryTIROHwkW"
+      },
+      "output": {
+        "nodeId": "S15wxH6zw",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "HJ1gknkraGD",
+      "input": {
+        "nodeId": "ByZynkBpzP",
+        "pinKey": "HkgdbSstfv"
+      },
+      "output": {
+        "nodeId": "HkHJn1STfw",
+        "pinKey": "HJxb1JnFGP"
+      }
+    },
+    {
+      "id": "HJGlk3JH6MD",
+      "input": {
+        "nodeId": "B18Jhyrpzw",
+        "pinKey": "SkflpNjYzP"
+      },
+      "output": {
+        "nodeId": "S1D131HafD",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "Hk5pgB6fv",
+      "input": {
+        "nodeId": "rJVpxr6Mv",
+        "pinKey": "BJf6HXtDaW"
+      },
+      "output": {
+        "nodeId": "BJ1LlB6GD",
+        "pinKey": "r1if8ROSDJ-"
+      }
+    },
+    {
+      "id": "Hk7l121HpGD",
+      "input": {
+        "nodeId": "B18Jhyrpzw",
+        "pinKey": "H1mlaNsYfv"
+      },
+      "output": {
+        "nodeId": "S1D131HafD",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "HkOkdFpzD",
+      "input": {
+        "nodeId": "HyEb3lSTMw",
+        "pinKey": "r1-thp9GP"
+      },
+      "output": {
+        "nodeId": "H1xkdY6fP",
+        "pinKey": "S1Mw2T5Gv"
+      }
+    },
+    {
+      "id": "HyADbHaGP",
+      "input": {
+        "nodeId": "B1XbheSpzw",
+        "pinKey": "HkgdbSstfv"
+      },
+      "output": {
+        "nodeId": "HkHJn1STfw",
+        "pinKey": "HJxb1JnFGP"
+      }
+    },
+    {
+      "id": "HyHaxBTfP",
+      "input": {
+        "nodeId": "BJfb3xBTzD",
+        "pinKey": "Hkx6spcfP"
+      },
+      "output": {
+        "nodeId": "rJVpxr6Mv",
+        "pinKey": "HJ1uXKDpb"
+      }
+    },
+    {
+      "id": "HyKWHDCzw",
+      "input": {
+        "nodeId": "SyNZBvCfD",
+        "pinKey": "Hk9dVPCfv"
+      },
+      "output": {
+        "nodeId": "B18Jhyrpzw",
+        "pinKey": "SJSAna9Gw"
+      }
+    },
+    {
+      "id": "HyQ1_Fpzw",
+      "input": {
+        "nodeId": "H1xkdY6fP",
+        "pinKey": "S1JLBOqMP"
+      },
+      "output": {
+        "nodeId": "B1XbheSpzw",
+        "pinKey": "BkkRSd9GP"
+      }
+    },
+    {
+      "id": "S10W3xB6fv",
+      "input": {
+        "nodeId": "H1gZhgBpGD",
+        "pinKey": "rJPi3acfw"
+      },
+      "output": {
+        "nodeId": "HyEb3lSTMw",
+        "pinKey": "rkSK36qfv"
+      }
+    },
+    {
+      "id": "S1hJWH6Mv",
+      "input": {
+        "nodeId": "H1gZhgBpGD",
+        "pinKey": "SJQ4PNjYzv"
+      },
+      "output": {
+        "nodeId": "S1D131HafD",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "SJLwAP0fw",
+      "input": {
+        "nodeId": "ByQJ3JHpzv",
+        "pinKey": "HypRU_9fP"
+      },
+      "output": {
+        "nodeId": "ByZynkBpzP",
+        "pinKey": "BkkRSd9GP"
+      }
+    },
+    {
+      "id": "SJQlOK6fD",
+      "input": {
+        "nodeId": "H1xkdY6fP",
+        "pinKey": "rJusXsFMP"
+      },
+      "output": {
+        "nodeId": "S1D131HafD",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "SJyxWrafw",
+      "input": {
+        "nodeId": "H1gZhgBpGD",
+        "pinKey": "HJzNDEstGw"
+      },
+      "output": {
+        "nodeId": "S1D131HafD",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "SkS-hgHazw",
+      "input": {
+        "nodeId": "H1gZhgBpGD",
+        "pinKey": "BJ1iBd9Gv"
+      },
+      "output": {
+        "nodeId": "HyEb3lSTMw",
+        "pinKey": "ByodBdcMv"
+      }
+    },
+    {
+      "id": "Sy3mrDCGv",
+      "input": {
+        "nodeId": "HycmHv0fP",
+        "pinKey": "Hk9dVPCfv"
+      },
+      "output": {
+        "nodeId": "H1gZhgBpGD",
+        "pinKey": "Hyoi3T5fD"
+      }
+    },
+    {
+      "id": "SyH1OFazv",
+      "input": {
+        "nodeId": "HyEb3lSTMw",
+        "pinKey": "r10dr_qzv"
+      },
+      "output": {
+        "nodeId": "H1xkdY6fP",
+        "pinKey": "rJFSr_qMP"
+      }
+    },
+    {
+      "id": "SyuvCwAGw",
+      "input": {
+        "nodeId": "ByQJ3JHpzv",
+        "pinKey": "B1emTa5Mw"
+      },
+      "output": {
+        "nodeId": "ByZynkBpzP",
+        "pinKey": "BJrE3p9Gw"
+      }
+    },
+    {
+      "id": "rJK_ZBTfw",
+      "input": {
+        "nodeId": "BJfb3xBTzD",
+        "pinKey": "SyU5XOqMw"
+      },
+      "output": {
+        "nodeId": "HkynkHpfD",
+        "pinKey": "Hk8pGoYGv"
+      }
+    },
+    {
+      "id": "rJbYgSTMv",
+      "input": {
+        "nodeId": "S1ytgrTzw",
+        "pinKey": "BJf6HXtDaW"
+      },
+      "output": {
+        "nodeId": "Bk6XeSTMD",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "rJxeJnyBTzw",
+      "input": {
+        "nodeId": "B18Jhyrpzw",
+        "pinKey": "r1uNvdqfw"
+      },
+      "output": {
+        "nodeId": "ByQJ3JHpzv",
+        "pinKey": "Hyd6UdcMP"
+      }
+    },
+    {
+      "id": "rkHZuFazD",
+      "input": {
+        "nodeId": "H1xkdY6fP",
+        "pinKey": "SyznQsKMP"
+      },
+      "output": {
+        "nodeId": "S1D131HafD",
+        "pinKey": "SJl8_usYGv"
+      }
+    },
+    {
+      "id": "rkbgk21BpGP",
+      "input": {
+        "nodeId": "B18Jhyrpzw",
+        "pinKey": "r1zA269Mv"
+      },
+      "output": {
+        "nodeId": "ByQJ3JHpzv",
+        "pinKey": "Bydmppcfw"
+      }
+    },
+    {
+      "id": "rkiXrDCzw",
+      "input": {
+        "nodeId": "HycmHv0fP",
+        "pinKey": "rymdNDRzw"
+      },
+      "output": {
+        "nodeId": "H1gZhgBpGD",
+        "pinKey": "Syp5Hd5Gw"
+      }
+    },
+    {
+      "id": "ryEgk3kHTzD",
+      "input": {
+        "nodeId": "ByZynkBpzP",
+        "pinKey": "rkT6BOqfP"
+      },
+      "output": {
+        "nodeId": "S1xJnJHTMP",
+        "pinKey": "H1lAQu5Gw"
+      }
+    },
+    {
+      "id": "ryvyOtTfv",
+      "input": {
+        "nodeId": "H1xkdY6fP",
+        "pinKey": "Bkyv2TqMv"
+      },
+      "output": {
+        "nodeId": "B1XbheSpzw",
+        "pinKey": "BJrE3p9Gw"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "boundLiterals": {
+        "B1bC4jFfv": "\"Hello World!\""
+      },
+      "id": "B18Jhyrpzw",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 6
+      },
+      "type": "@/draw-text"
+    },
+    {
+      "boundLiterals": {
+        "HkgdbSstfv": "2"
+      },
+      "id": "B1XbheSpzw",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 4
+      },
+      "type": "@/set-color"
+    },
+    {
+      "id": "BJ1LlB6GD",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 2
+      },
+      "type": "xod/core/not"
+    },
+    {
+      "boundLiterals": {
+        "BkzGmPRGv": "False",
+        "Hkx6spcfP": "On Boot"
+      },
+      "id": "BJfb3xBTzD",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 3
+      },
+      "type": "@/screen"
+    },
+    {
+      "id": "Bk6XeSTMD",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "id": "ByQJ3JHpzv",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 5
+      },
+      "type": "@/set-font"
+    },
+    {
+      "id": "ByZynkBpzP",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 4
+      },
+      "type": "@/set-color"
+    },
+    {
+      "boundLiterals": {
+        "HJzNDEstGw": "55",
+        "HyLEDNoYfD": "True",
+        "SJQ4PNjYzv": "25",
+        "SkNEvVoYfP": "25"
+      },
+      "id": "H1gZhgBpGD",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 7
+      },
+      "type": "@/draw-circle"
+    },
+    {
+      "boundLiterals": {
+        "BkTo7otMP": "127"
+      },
+      "id": "H1xkdY6fP",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 5
+      },
+      "type": "@/draw-line"
+    },
+    {
+      "id": "HkHJn1STfw",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 3
+      },
+      "type": "@/color-inverse"
+    },
+    {
+      "id": "HkynkHpfD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 0
+      },
+      "type": "@/ssd1306-device"
+    },
+    {
+      "boundLiterals": {
+        "BkfjGVjKzP": "10",
+        "H1HjM4iFMD": "44",
+        "SJNsfNsYfP": "100",
+        "SJmofEiFzP": "10",
+        "rJySVjFMv": "False"
+      },
+      "id": "HyEb3lSTMw",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 6
+      },
+      "type": "@/draw-rectangle"
+    },
+    {
+      "id": "HycmHv0fP",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 8
+      },
+      "type": "@/manual-update"
+    },
+    {
+      "boundLiterals": {
+        "B13SCNhl-": "2"
+      },
+      "id": "S15wxH6zw",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 0
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "S1D131HafD",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 5
+      },
+      "type": "@/align-center"
+    },
+    {
+      "boundLiterals": {
+        "BkzGmPRGv": "False"
+      },
+      "id": "S1xJnJHTMP",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/screen"
+    },
+    {
+      "id": "S1ytgrTzw",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/core/gate(pulse)"
+    },
+    {
+      "id": "SyNZBvCfD",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 7
+      },
+      "type": "@/manual-update"
+    },
+    {
+      "id": "rJVpxr6Mv",
+      "position": {
+        "units": "slots",
+        "x": 13,
+        "y": 2
+      },
+      "type": "xod/core/gate(pulse)"
+    },
+    {
+      "id": "rJXsqrTfv",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 4
+      },
+      "type": "@/font-a-6x8"
+    }
+  ]
+}

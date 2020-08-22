@@ -1,0 +1,27 @@
+{
+  "description": "Color inverse constant. Use it  with \"set-color\".",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__in__": "2"
+      },
+      "id": "HJxb1JnFGP",
+      "label": "INV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "S1WJk3FzP",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "description": "Align bottom constant. Y only.",
+  "nodes": [
+    {
+      "id": "H13IdsKMv",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "32763"
+      },
+      "id": "ryenUusFfv",
+      "label": "B",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}
