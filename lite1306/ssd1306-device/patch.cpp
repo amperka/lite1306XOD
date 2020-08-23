@@ -99,6 +99,8 @@ struct State {
     struct Font* font;
     int16_t changedLeft;
     int16_t changedRight;
+    int16_t unclearedLeft;
+    int16_t unclearedRight;
 
     union {
         uint64_t u;
@@ -119,15 +121,17 @@ struct State {
     void setChanged(Number x, Number w) {
         if (x <= (x + w)) {
             if (x < changedLeft)
-                changedLeft = (x > 0) ? x : 0;
+                changedLeft = (x > 0) ? (x) : 0;
             if ((x + w) > changedRight)
                 changedRight = ((x + w) < width) ? (x + w) : (width - 1);
         } else {
             if ((x + w) < changedLeft)
                 changedLeft = ((x + w) > 0) ? (x + w) : 0;
             if (x > changedRight)
-                changedRight = (x < width) ? x : (width - 1);
+                changedRight = (x < width) ? (x) : (width - 1);
         }
+        unclearedLeft = (unclearedLeft < changedLeft)? changedLeft : unclearedLeft;
+        unclearedRight = (unclearedRight > changedRight)? changedRight : unclearedRight;
     }
 
     void fixPlace(int16_t* x, int16_t* y, int16_t* w, int16_t* h) {
@@ -187,10 +191,12 @@ struct State {
         }
     }
 
-    void clearSsd1306(void) {
+    void clearSsd1306(uint8_t b = 0, uint8_t e = 127) {
         row.u = 0;
-        for (uint8_t i = 0; i < width; i++)
+        for (uint8_t i = b; i < e; i++)
             pushBufferToSsd1306(i);
+        unclearedLeft = width;
+        unclearedRight = -1;
     }
 
     void punch(uint64_t temp, uint8_t c) {

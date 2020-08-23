@@ -65,6 +65,20 @@
         "y": 3
       },
       "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "Screen auto-clear before draw.",
+      "id": "rJIaG21XD",
+      "label": "CLR",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
     }
   ]
 }
