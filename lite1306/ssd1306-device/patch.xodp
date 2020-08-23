@@ -1,0 +1,67 @@
+{
+  "description": "OLED screen ssd1306 object. Uses a minimum of RAM however is slow.",
+  "nodes": [
+    {
+      "id": "ByC2MoFfP",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "ssd1306 object.",
+      "id": "Hk8pGoYGv",
+      "label": "DEV'",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "64"
+      },
+      "description": "Screen height.",
+      "id": "HylYJPczD",
+      "label": "H",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "128"
+      },
+      "description": "Screen width.",
+      "id": "S1nOJw5GP",
+      "label": "W",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "3Ch"
+      },
+      "description": "i2c address of ssd1306",
+      "id": "rkz1XoFzw",
+      "label": "ADDR",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-byte"
+    }
+  ]
+}

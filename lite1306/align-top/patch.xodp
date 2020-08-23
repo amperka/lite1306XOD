@@ -1,0 +1,27 @@
+{
+  "description": "Align top constant. Y only.",
+  "nodes": [
+    {
+      "id": "SJRG_jFGw",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "32762"
+      },
+      "id": "Skm7ditGw",
+      "label": "T",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

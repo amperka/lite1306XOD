@@ -1,0 +1,100 @@
+{
+  "description": "Draws a circle or circle of radius R with center coordinates X and Y.",
+  "nodes": [
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "BJ1iBd9Gv",
+      "label": "SCR",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/input-screen"
+    },
+    {
+      "id": "HJZ4D4stGP",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "X - coordinate",
+      "id": "HJzNDEstGw",
+      "label": "X",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "If false will draw a circle otherwise a filled circle.",
+      "id": "HyLEDNoYfD",
+      "label": "FILL",
+      "position": {
+        "units": "slots",
+        "x": 12,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "Hyoi3T5fD",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Y - coordinate",
+      "id": "SJQ4PNjYzv",
+      "label": "Y",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Radius",
+      "id": "SkNEvVoYfP",
+      "label": "R",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "Syp5Hd5Gw",
+      "label": "SCR'",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "@/output-screen"
+    },
+    {
+      "id": "rJPi3acfw",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

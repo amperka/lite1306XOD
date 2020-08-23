@@ -1,0 +1,84 @@
+{
+  "description": "Abstraction \"screen\". The DO command will display all graphic primitives that are connected to the \"screen\" below.",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "Screen auto-update mode. If true objects will be displayed as they are displayed, \"manual-update\" is not needed at the end. Else \nobjects will be displayed by \"manual-update\" command.",
+      "id": "BkzGmPRGv",
+      "label": "AUTO",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "H1lAQu5Gw",
+      "label": "SCR'",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-self"
+    },
+    {
+      "id": "Hk2t7uczv",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "Hkx6spcfP",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "\"ssd1306-device\" object.",
+      "id": "SyU5XOqMw",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/input-ssd1306-device"
+    },
+    {
+      "id": "SyxCiaqfw",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "True"
+      },
+      "description": "Screen auto-clear before draw.",
+      "id": "rJIaG21XD",
+      "label": "CLR",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    }
+  ]
+}

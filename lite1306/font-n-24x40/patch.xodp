@@ -1,0 +1,24 @@
+{
+  "description": "Big-size numeric only font.",
+  "nodes": [
+    {
+      "id": "HJh2eNaGw",
+      "label": "N40",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "type": "@/output-fonts"
+    },
+    {
+      "id": "rJxaW2KzP",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

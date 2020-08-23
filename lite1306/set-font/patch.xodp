@@ -1,0 +1,67 @@
+{
+  "description": "Includes the font that will be used to print text.",
+  "nodes": [
+    {
+      "id": "B1emTa5Mw",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "BJc_BsFGw",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "Bydmppcfw",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Used font.",
+      "id": "H1-FZ76zw",
+      "label": "FONT",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 1
+      },
+      "type": "@/input-fonts"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "Hyd6UdcMP",
+      "label": "SCR'",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 3
+      },
+      "type": "@/output-screen"
+    },
+    {
+      "description": "Abstraction \"screen\".",
+      "id": "HypRU_9fP",
+      "label": "SCR",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "@/input-screen"
+    }
+  ]
+}

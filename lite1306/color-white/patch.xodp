@@ -1,0 +1,27 @@
+{
+  "description": "Color white constant. Use it  with \"set-color\".",
+  "nodes": [
+    {
+      "boundLiterals": {
+        "__in__": "1"
+      },
+      "id": "HyxRoAitzv",
+      "label": "WHITE",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "ryRiCitfD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

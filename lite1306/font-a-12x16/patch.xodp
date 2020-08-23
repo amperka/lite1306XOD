@@ -1,0 +1,24 @@
+{
+  "description": "Small-size alpha-numeric font.",
+  "nodes": [
+    {
+      "id": "Skv-ZX6Gw",
+      "label": "A16",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "@/output-fonts"
+    },
+    {
+      "id": "rJsY-3FMw",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

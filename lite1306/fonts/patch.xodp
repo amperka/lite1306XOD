@@ -1,0 +1,24 @@
+{
+  "description": "Dumb object.",
+  "nodes": [
+    {
+      "id": "BkzF0MpMv",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "SkK9RfTzw",
+      "label": "FONT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}

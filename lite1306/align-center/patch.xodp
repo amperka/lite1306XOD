@@ -1,0 +1,27 @@
+{
+  "description": "Align center constant. You can use it for X or Y.",
+  "nodes": [
+    {
+      "id": "SJUdOjYGv",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__in__": "32766"
+      },
+      "id": "SJl8_usYGv",
+      "label": "C",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/output-number"
+    }
+  ]
+}

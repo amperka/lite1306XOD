@@ -1,0 +1,24 @@
+{
+  "description": "Small-size numeric only font. Like 7-segments.",
+  "nodes": [
+    {
+      "id": "HJF7WVpGw",
+      "label": "N16",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 5
+      },
+      "type": "@/output-fonts"
+    },
+    {
+      "id": "Sk30Z3FMv",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 4
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

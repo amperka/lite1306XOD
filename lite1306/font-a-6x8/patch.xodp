@@ -1,0 +1,24 @@
+{
+  "description": "Tiny-size alpha-numeric font.",
+  "nodes": [
+    {
+      "id": "ByWKqQ6zP",
+      "label": "A8",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/output-fonts"
+    },
+    {
+      "id": "rJ88W3YfP",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}
